@@ -1,0 +1,332 @@
+.cart-confirm {
+  font-size: 12px;
+  color: #040a2b;
+  display: none;
+  position: fixed;
+  top: -100%;
+  right: 0;
+  width: 285px;
+  padding-top: 0;
+  z-index: 9000;
+  display: block;
+}
+
+.button--dark {
+  background: #040a2b;
+  background: #040a2b;
+  background: #040a2b;
+  background: #040a2b;
+  -pie-background: #040a2b;
+  background: #040a2b;
+  font-size: 12px;
+  font-family: AkzidenzGrotesk;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale
+}
+
+.button--secondary {
+  height: 33px;
+  line-height: 33px;
+  border: 1px solid #040a2b;
+}
+
+.cart-confirm__shade-button {
+  clear: both;
+  margin-top: 10px;
+  width: 100%;
+  text-align: center
+}
+
+.product-list__cart-overlay {
+  -webkit-transition: top 1s;
+  /* Safari */
+  transition: top 1s;
+}
+
+.product-list__cart-overlay.slide-in {
+  top: 0;
+}
+
+.product-list__cart-overlay--item-container {
+  max-height: 500px;
+  overflow: auto;
+}
+
+html[data-useragent*='MSIE 8.0'] .cart-confirm {
+  right: 19px
+}
+
+.cart-confirm__content {
+  width: 100%;
+  padding: 20px 20px 20px 20px;
+  border: 1px solid #a4a4ab;
+  background: #fff
+}
+
+.cart-confirm__image-container {
+  display: block;
+  width: 50px;
+  float: left;
+}
+
+.cart-confirm__image {
+  float: left;
+  width: 100%;
+  height: 80px;
+  background: #cccccc;
+}
+
+.cart-confirm__description {
+  float: left;
+  width: calc(100% - 50px);
+  padding-left: 10px
+}
+
+.cart-confirm__header,
+.cart-confirm__sub-header {
+  font-size: 14px;
+  line-height: 18px;
+  color: #040a2b
+}
+
+.cart-confirm__shade-swatch {
+  width: 18px;
+  height: 18px;
+  float: left;
+  border-radius: 15px;
+  margin-right: 5px
+}
+
+.cart-confirm__description .cart-confirm__shade {
+  height: auto;
+  width: auto;
+  margin: 5px 0
+}
+
+.cart-confirm__description .cart-confirm__shade .swatch__container {
+  margin: 0
+}
+
+.cart-confirm__shade-button {
+  clear: both;
+  margin-top: 10px;
+  width: 100%;
+  text-align: center
+}
+
+.cart-confirm__shade .swatch--1,
+.mpp-compare__cart-print .swatch--1,
+.mpp-compare__swatch-list ul.shade-list .swatch--1,
+.product_brief ul.shade-list .swatch--1 {
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  -ms-border-radius: 9px;
+  -o-border-radius: 9px;
+  border-radius: 9px;
+  top: 0;
+  left: 0;
+  height: 18px;
+  width: 18px
+}
+
+html[data-useragent*='MSIE 8.0'] .cart-confirm__shade .swatch--1,
+html[data-useragent*='MSIE 8.0'] .mpp-compare__cart-print .swatch--1,
+html[data-useragent*='MSIE 8.0'] .mpp-compare__swatch-list ul.shade-list .swatch--1,
+html[data-useragent*='MSIE 8.0'] .product_brief ul.shade-list .swatch--1 {
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  -ms-border-radius: 9px;
+  -o-border-radius: 9px;
+  border-radius: 9px;
+}
+
+.cart-confirm__shade .swatches--duo .swatch--2,
+.mpp-compare__cart-print .swatches--duo .swatch--2,
+.mpp-compare__swatch-list ul.shade-list .swatches--duo .swatch--2,
+.product_brief ul.shade-list .swatches--duo .swatch--2 {
+  top: 0;
+  right: 0;
+  height: 18px;
+  width: 9px
+}
+
+.cart-confirm__shade .swatches--duo .swatch--3,
+.cart-confirm__shade .swatches--duo .swatch--4,
+.cart-confirm__shade .swatches--duo .swatch--5,
+.mpp-compare__cart-print .swatches--duo .swatch--3,
+.mpp-compare__cart-print .swatches--duo .swatch--4,
+.mpp-compare__cart-print .swatches--duo .swatch--5,
+.mpp-compare__swatch-list ul.shade-list .swatches--duo .swatch--3,
+.mpp-compare__swatch-list ul.shade-list .swatches--duo .swatch--4,
+.mpp-compare__swatch-list ul.shade-list .swatches--duo .swatch--5,
+.product_brief ul.shade-list .swatches--duo .swatch--3,
+.product_brief ul.shade-list .swatches--duo .swatch--4,
+.product_brief ul.shade-list .swatches--duo .swatch--5 {
+  display: none
+}
+
+.cart-confirm__shade .swatches--trio .swatch--2,
+.mpp-compare__cart-print .swatches--trio .swatch--2,
+.mpp-compare__swatch-list ul.shade-list .swatches--trio .swatch--2,
+.product_brief ul.shade-list .swatches--trio .swatch--2 {
+  top: 0;
+  right: 0;
+  height: 18px;
+  width: 12px
+}
+
+.cart-confirm__shade .swatches--trio .swatch--3,
+.mpp-compare__cart-print .swatches--trio .swatch--3,
+.mpp-compare__swatch-list ul.shade-list .swatches--trio .swatch--3,
+.product_brief ul.shade-list .swatches--trio .swatch--3 {
+  right: 0;
+  height: 18px;
+  width: 6px
+}
+
+.cart-confirm__shade .swatches--trio .swatch--4,
+.cart-confirm__shade .swatches--trio .swatch--5,
+.mpp-compare__cart-print .swatches--trio .swatch--4,
+.mpp-compare__cart-print .swatches--trio .swatch--5,
+.mpp-compare__swatch-list ul.shade-list .swatches--trio .swatch--4,
+.mpp-compare__swatch-list ul.shade-list .swatches--trio .swatch--5,
+.product_brief ul.shade-list .swatches--trio .swatch--4,
+.product_brief ul.shade-list .swatches--trio .swatch--5 {
+  display: none
+}
+
+.cart-confirm__shade .swatches--quad .swatch--2,
+.mpp-compare__cart-print .swatches--quad .swatch--2,
+.mpp-compare__swatch-list ul.shade-list .swatches--quad .swatch--2,
+.product_brief ul.shade-list .swatches--quad .swatch--2 {
+  top: 0;
+  left: 0;
+  height: 9px;
+  width: 18px
+}
+
+.cart-confirm__shade .swatches--quad .swatch--3,
+.mpp-compare__cart-print .swatches--quad .swatch--3,
+.mpp-compare__swatch-list ul.shade-list .swatches--quad .swatch--3,
+.product_brief ul.shade-list .swatches--quad .swatch--3 {
+  top: 0;
+  right: 0;
+  height: 9px;
+  width: 9px
+}
+
+.cart-confirm__shade .swatches--quad .swatch--4,
+.mpp-compare__cart-print .swatches--quad .swatch--4,
+.mpp-compare__swatch-list ul.shade-list .swatches--quad .swatch--4,
+.product_brief ul.shade-list .swatches--quad .swatch--4 {
+  bottom: 0;
+  right: 0;
+  height: 9px;
+  width: 9px
+}
+
+.cart-confirm__shade .swatches--quad .swatch--5,
+.mpp-compare__cart-print .swatches--quad .swatch--5,
+.mpp-compare__swatch-list ul.shade-list .swatches--quad .swatch--5,
+.product_brief ul.shade-list .swatches--quad .swatch--5 {
+  display: none
+}
+
+.cart-confirm__shade .swatches--quint .swatch--2,
+.mpp-compare__cart-print .swatches--quint .swatch--2,
+.mpp-compare__swatch-list ul.shade-list .swatches--quint .swatch--2,
+.product_brief ul.shade-list .swatches--quint .swatch--2 {
+  top: 0;
+  left: 0;
+  height: 6px;
+  width: 18px
+}
+
+.cart-confirm__shade .swatches--quint .swatch--3,
+.mpp-compare__cart-print .swatches--quint .swatch--3,
+.mpp-compare__swatch-list ul.shade-list .swatches--quint .swatch--3,
+.product_brief ul.shade-list .swatches--quint .swatch--3 {
+  top: 0;
+  right: 0;
+  height: 18px;
+  width: 6px
+}
+
+.cart-confirm__shade .swatches--quint .swatch--4,
+.mpp-compare__cart-print .swatches--quint .swatch--4,
+.mpp-compare__swatch-list ul.shade-list .swatches--quint .swatch--4,
+.product_brief ul.shade-list .swatches--quint .swatch--4 {
+  bottom: 0;
+  right: 0;
+  height: 6px;
+  width: 18px
+}
+
+.cart-confirm__shade .swatches--quint .swatch--5,
+.mpp-compare__cart-print .swatches--quint .swatch--5,
+.mpp-compare__swatch-list ul.shade-list .swatches--quint .swatch--5,
+.product_brief ul.shade-list .swatches--quint .swatch--5 {
+  bottom: 0;
+  left: 0;
+  height: 12px;
+  width: 6px
+}
+
+.product-list__cart-overlay--each-item {
+  overflow: auto;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #EEE;
+  margin-bottom: 10px;
+}
+
+.product-list__cart-overlay--qty {
+  display: inline-block;
+  float: left;
+}
+
+.product-list__cart-overlay--subtotal {
+  display: inline-block;
+  float: right;
+}
+
+.product-list__cart-overlay--total-price {
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+
+.product-list__cart-overlay--total-price .text-right {
+  float: right;
+}
+
+.cart-overlay__button--checkout {
+  text-transform: uppercase;
+  display: block;
+}
+
+.cart-overlay__button--checkout:hover {
+  color: #FFF;
+}
+
+.product_brief__sub-panel-close {
+  background-size: auto auto;
+  background-position: 0 -6599px;
+  height: 12px;
+  width: 12px;
+  position: absolute;
+  top: 7px;
+  right: 0;
+  cursor: pointer;
+  background-image: url(/images/sprites-s38a9885fce.png);
+  background-repeat: no-repeat;
+}
+
+.product-list__cart-overlay--total-price {
+  font-weight: 400;
+}

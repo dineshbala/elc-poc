@@ -1,0 +1,150 @@
+.product_brief__swatch-list {
+  width: 226px;
+  overflow: hidden
+}
+
+@media only screen and (min-width: 1280px) {
+  .product_brief__swatch-list {
+    margin: 0 auto
+  }
+}
+
+ul.shade-list {
+  list-style-type: none;
+  margin: 8px auto;
+  padding: 0
+}
+
+ul.shade-list:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+ul.shade-list li {
+  position: relative;
+  float: left;
+  display: block
+}
+
+ul.shade-list li a.swatch {
+  position: absolute;
+  display: block
+}
+
+ul.shade-list li a.swatch:focus,
+ul.shade-list li a.swatch:hover ul.shade-list li a.swatch:active {
+  outline: 0
+}
+
+@media only screen and (min-width: 737px) {
+  ul.shade-list {
+    margin: 0
+  }
+}
+
+.product_brief ul.shade-list {
+  height: 76px;
+  overflow: hidden;
+  width: 245px
+}
+
+@media only screen and (min-width: 737px) {
+  ul.shade-list {
+    margin: 0
+  }
+}
+
+.product_brief ul.shade-list li {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  margin: 4px 16px 4px 0
+}
+
+.product_brief ul.shade-list li a.swatch.swatch--selected {
+  top: 0;
+  left: 0;
+  height: 30px;
+  width: 30px;
+  z-index: 10
+}
+
+.cart-confirm__shade div.mpp-compare__swatch-container a.swatch.swatch--selected.selected,
+.cart-confirm__shade div.mpp-compare__swatch-container a.swatch.swatch--selected:hover,
+.cart-confirm__shade li a.swatch.swatch--selected.selected,
+.cart-confirm__shade li a.swatch.swatch--selected:hover,
+.mpp-compare__cart-print div.mpp-compare__swatch-container a.swatch.swatch--selected.selected,
+.mpp-compare__cart-print div.mpp-compare__swatch-container a.swatch.swatch--selected:hover,
+.mpp-compare__cart-print li a.swatch.swatch--selected.selected,
+.mpp-compare__cart-print li a.swatch.swatch--selected:hover,
+.mpp-compare__swatch-list ul.shade-list div.mpp-compare__swatch-container a.swatch.swatch--selected.selected,
+.mpp-compare__swatch-list ul.shade-list div.mpp-compare__swatch-container a.swatch.swatch--selected:hover,
+.mpp-compare__swatch-list ul.shade-list li a.swatch.swatch--selected.selected,
+.mpp-compare__swatch-list ul.shade-list li a.swatch.swatch--selected:hover,
+.product_brief ul.shade-list div.mpp-compare__swatch-container a.swatch.swatch--selected.selected,
+.product_brief ul.shade-list div.mpp-compare__swatch-container a.swatch.swatch--selected:hover,
+.product_brief ul.shade-list li a.swatch.swatch--selected.selected,
+.product_brief ul.shade-list li a.swatch.swatch--selected:hover {
+  border: 1px solid #e1c27d;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px
+}
+
+html[data-useragent*='MSIE 8.0'] .cart-confirm__shade div.mpp-compare__swatch-container a.swatch.swatch--selected.selected,
+html[data-useragent*='MSIE 8.0'] .cart-confirm__shade div.mpp-compare__swatch-container a.swatch.swatch--selected:hover,
+html[data-useragent*='MSIE 8.0'] .cart-confirm__shade li a.swatch.swatch--selected.selected,
+html[data-useragent*='MSIE 8.0'] .cart-confirm__shade li a.swatch.swatch--selected:hover,
+html[data-useragent*='MSIE 8.0'] .mpp-compare__cart-print div.mpp-compare__swatch-container a.swatch.swatch--selected.selected,
+html[data-useragent*='MSIE 8.0'] .mpp-compare__cart-print div.mpp-compare__swatch-container a.swatch.swatch--selected:hover,
+html[data-useragent*='MSIE 8.0'] .mpp-compare__cart-print li a.swatch.swatch--selected.selected,
+html[data-useragent*='MSIE 8.0'] .mpp-compare__cart-print li a.swatch.swatch--selected:hover,
+html[data-useragent*='MSIE 8.0'] .mpp-compare__swatch-list ul.shade-list div.mpp-compare__swatch-container a.swatch.swatch--selected.selected,
+html[data-useragent*='MSIE 8.0'] .mpp-compare__swatch-list ul.shade-list div.mpp-compare__swatch-container a.swatch.swatch--selected:hover,
+html[data-useragent*='MSIE 8.0'] .mpp-compare__swatch-list ul.shade-list li a.swatch.swatch--selected.selected,
+html[data-useragent*='MSIE 8.0'] .mpp-compare__swatch-list ul.shade-list li a.swatch.swatch--selected:hover,
+html[data-useragent*='MSIE 8.0'] .product_brief ul.shade-list div.mpp-compare__swatch-container a.swatch.swatch--selected.selected,
+html[data-useragent*='MSIE 8.0'] .product_brief ul.shade-list div.mpp-compare__swatch-container a.swatch.swatch--selected:hover,
+html[data-useragent*='MSIE 8.0'] .product_brief ul.shade-list li a.swatch.swatch--selected.selected,
+html[data-useragent*='MSIE 8.0'] .product_brief ul.shade-list li a.swatch.swatch--selected:hover {
+  -webkit-border-radius: 19px;
+  -moz-border-radius: 19px;
+  -ms-border-radius: 19px;
+  -o-border-radius: 19px;
+  border-radius: 19px;
+  height: 28px;
+  width: 28px;
+  border: 1px solid #e1c27c;
+  color: #e1c27c
+}
+
+.product_brief ul.shade-list .swatch__container {
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  -ms-border-radius: 9px;
+  -o-border-radius: 9px;
+  border-radius: 9px;
+  position: relative;
+  margin: 6px 0 0 6px;
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+  z-index: 6
+}
+
+.product_brief__quickshop {
+  display: none;
+}
+
+.product_brief.quickshop-open .product_brief__quickshop {
+  display: block;
+}
+
+.product_brief.quickshop-open .product_brief__panel,
+.product_brief.quickshop-open .product_brief__desc1,
+.product_brief.quickshop-open .product_brief__buttons-container {
+  display: none;
+}

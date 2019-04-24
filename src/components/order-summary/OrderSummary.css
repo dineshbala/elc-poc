@@ -1,0 +1,59 @@
+.order-summary-panel {
+  position: relative;
+  padding: 18px 0;
+  border-top: none;
+  border-bottom: 1px solid #cccccc;
+  margin-top: 4px;
+  color: #040a2b;
+}
+.order-summary-panel header {
+  position: relative;
+  display: block;
+}
+
+.order-summary-panel__title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 18px;
+  color: #040a2b;
+  font-family: "Optima LT W02 Roman";
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-align: left;
+  text-transform: capitalize;
+  font-size: 24px;
+}
+.order-summary__content {
+  overflow: hidden;
+  font-size: 14px;
+  letter-spacing: .1em;
+}
+.order-summary .label {
+  float: left;
+  margin: 0;
+  margin-bottom: 6px;
+  width: 70%;
+  line-height: 18px;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: AkzidenzGrotesk;
+  letter-spacing: .15em;
+  background: none;
+  color: inherit;
+  padding-left: 0;
+}
+.order-summary .value {
+  float: right;
+  margin: 0;
+  margin-bottom: 6px;
+  width: 30%;
+  font-family: AkzidenzGrotesk;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .05em;
+  line-height: 18px;
+  text-align: right;
+  letter-spacing: .15em;
+}

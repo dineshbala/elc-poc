@@ -1,0 +1,49 @@
+.logout{
+    float:right;
+    margin:10px 0px;
+}
+.address-info {
+    margin-bottom: 15px;
+}
+.address-border {
+    border-bottom: 1px solid #b0b0b0;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    float: left;
+    width: 100%;
+}
+.default_address_title {
+    text-transform: uppercase;
+    color: #7d7d7d;
+}
+.address-item__info {
+    display: inline-block;
+}
+.address-item__controls {
+    text-align: right;
+}
+.address-item__controls a {
+    text-decoration: underline;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #1b1b1b;
+    transition: color .3s;
+}
+
+.section-header a {
+    float: right;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #1b1b1b;
+    transition: color .3s;
+}
+
+.account__addressbook {
+    overflow: auto;
+    background: #f2f2f2;
+    padding: 20px;
+    overflow: hidden;
+}
+

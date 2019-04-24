@@ -1,0 +1,39 @@
+.shop_now {
+    position: absolute;
+    width: 50%;
+    left: 23%;
+    top: 180px;
+    text-align: center;
+    transition: opacity .35s ease;
+    border: 1px solid #fff;
+    padding: 10px;
+    color: #FFF;
+    background: #000;
+    opacity: 0;
+  }
+  .shop_now:hover{
+      text-decoration: none;
+       color: #fff;
+  }
+  .product_slider:hover .shop_now {
+    opacity: 1;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 91%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    transition: background 0.5s ease;
+  }
+  .product_slider:hover .overlay {
+    display: block;
+    background: rgba(241, 212, 180, 0.53);
+  }
+.product_image_top{
+    position: relative;
+}
+.product_slider_heading{
+  color: #000;
+}
