@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import './MobileHeader.css';
 
 class MobileHeader extends Component {
   showSidebar(){
